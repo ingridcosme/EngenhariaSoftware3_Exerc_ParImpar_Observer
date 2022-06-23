@@ -2,6 +2,6 @@ package controller;
 
 public interface IObservado {
 
-	public void notificaMudanca(String acao, int numero);
+	public void notificaMudanca(int numero);
 	
 }

@@ -3,10 +3,8 @@ package controller;
 public class Testador implements ITestador, IObservador {
 
 	@Override
-	public void update(String acao, int numero) {
-		if(acao.equals("gerado")) {
-			testar(numero);
-		}
+	public void update(int numero) {
+		testar(numero);
 	}
 
 	@Override
